@@ -29,11 +29,12 @@ spec:
 
 ## 3. Role-Based Access Control (RBAC)
 - Enforces **least privilege access** across namespaces.
-- Examples:
-| Role         | Namespace   | Permission                    |
-|--------------|-------------|-------------------------------|
-| `dev-reader` | prod        | `get`, `list`                 |
-| `dev-admin`  | dev         | `create`, `delete`, `update`  |
+
+| Role         | Namespace   | Permission                   |
+|--------------|-------------|------------------------------|
+| `dev-reader` | prod        | `get`, `list`                |
+| `dev-admin`  | dev         | `create`, `delete`, `update` |
+
 - Apply Roles and RoleBindings per namespace.
 
 ## 4. Resource Quotas and Limits
