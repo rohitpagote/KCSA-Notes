@@ -8,9 +8,9 @@ Understanding trust boundaries and data flow is essential to identifying and mit
 
 ## Threat Modeling Process
 - Threat modeling identifies, prioritizes, and mitigates security risks early:
-    1. Identify potential threats—enumerate attack scenarios.
-    2. Assess impact—evaluate risk severity and likelihood.
-    3. Implement countermeasures—design controls to reduce risk.
+    1. Identify potential threats - enumerate attack scenarios.
+    2. Assess impact - evaluate risk severity and likelihood.
+    3. Implement countermeasures - design controls to reduce risk.
 
 ---
 
@@ -41,7 +41,7 @@ Understanding trust boundaries and data flow is essential to identifying and mit
 
 ### 5. Container Boundary
 - Within pods, container runtimes enforce isolation. 
--  patterns and runtime policies (AppArmor, seccomp) reduce risk of breakout between containers.
+- Patterns and runtime policies (AppArmor, seccomp) reduce risk of breakout between containers.
 
 ---
 

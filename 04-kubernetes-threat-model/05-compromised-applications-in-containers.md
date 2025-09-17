@@ -1,6 +1,7 @@
 # Kubernetes Threat Model: Compromised Applications in Containers
 
-- When an application running inside a container is exploited, attackers can gain unauthorized access or misuse its capabilities. - This threat vector focuses on **application-level vulnerabilities**, not the container or node directly.
+- When an application running inside a container is exploited, attackers can gain unauthorized access or misuse its capabilities. 
+- This threat vector focuses on **application-level vulnerabilities**, not the container or node directly.
 
 ## 🎯 Objective
 - Gain unauthorized access by exploiting **application vulnerabilities**.
