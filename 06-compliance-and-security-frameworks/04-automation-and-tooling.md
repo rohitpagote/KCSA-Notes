@@ -22,8 +22,8 @@
 
 | CI/CD Pipeline Tool | Use Case |
 |---------------------|----------|
-| Tekton |Kubernetes-native pipelines | 
-| Jenkins |Extensible automation server | 
+| Tekton | Kubernetes-native pipelines | 
+| Jenkins | Extensible automation server | 
 | Travis CI | Cloud-hosted continuous testing |
 | CircleCI | Container-based CI |
 | Flux CD | GitOps continuous delivery |
@@ -42,7 +42,7 @@
 
 - To secure the software supply chain, use signing frameworks:
     - **in-toto** – End-to-end supply chain security
-    - **Notary**, [TUF][tuf], [Sigstore][sigstore]
+    - **Notary**, **TUF**, **Sigstore**
 
 ![Distribution Phase](../images/distribution-phase.png)
 

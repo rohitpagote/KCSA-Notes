@@ -32,7 +32,6 @@
     - **Defense Evasion**: Disable logging, tamper with audit trails
 
 ## 📌 Summary
-By combining compliance frameworks (GDPR, HIPAA, NIST) with threat modeling (STRIDE, MITRE ATT&CK), security teams can:
+- By combining compliance frameworks (GDPR, HIPAA, NIST) with threat modeling (STRIDE, MITRE ATT&CK), security teams can:
     - Understand **what** requirements apply to your environment.
     - Determine **how** to implement controls that mitigate real-world threats.
-    - Continuously refine defenses through structured threat analysis.
