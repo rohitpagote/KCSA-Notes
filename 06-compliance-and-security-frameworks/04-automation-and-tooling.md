@@ -35,6 +35,7 @@
 - After validation, build and scan images:
 
 | Scanner | Scope | Example Command |
+|---------|-------|-----------------|
 | Trivy | Container images, filesystems, Git repos | `trivy image myapp:latest` |
 | Clair | Static image analysis via API | API integration |
 | Grype | Images & filesystem scanning | `grype myimage:tag` |
